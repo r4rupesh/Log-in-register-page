@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "@faker-js/faker": "^9.2.0",
+    "ejs": "^3.1.10",
+    "ejs-mate": "^4.0.0",
+    "express": "^4.21.1",
+    "faker": "^6.6.6",
+    "joi": "^17.13.3",
+    "mongoose": "^8.8.1",
+    "path": "^0.12.7"
+  },
+  "name": "passport-authentication",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Rupesh Kumar",
+  "license": "ISC",
+  "description": "passport authentication website"
+}

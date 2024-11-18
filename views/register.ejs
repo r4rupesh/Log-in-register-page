@@ -1,0 +1,62 @@
+<%layout("/layouts/boilerplate")%>
+<div class="d-flex justify-content-center mt-5">
+  <form class="row g-3 col-5 needs-validation" method="POST" action="/register" novalidate>
+    <div class="col-12">
+      <label for="name" class="form-label">Name</label>
+      <input
+        type="text"
+        class="form-control"
+        placeholder="Name"
+        aria-label="Name"
+        name="name"
+        required
+      />
+      <div class="valid-feedback">Looks good!</div>
+      <div class="invalid-feedback">Please enter your name.</div>
+    </div>
+
+    <div class="col-md-12">
+      <label for="inputEmail4" class="form-label">Email</label>
+      <input
+        type="email"
+        class="form-control"
+        placeholder="@gmail.com"
+        name="email"
+        required
+      />
+      <div class="valid-feedback">Looks good!</div>
+      <div class="invalid-feedback">Please enter a valid email address.</div>
+    </div>
+
+    <div class="col-md-12">
+      <label for="inputPassword1" class="form-label">Password</label>
+      <input
+        type="password"
+        class="form-control"
+        name="password1"
+        required
+      />
+      <div class="valid-feedback">Looks good!</div>
+      <div class="invalid-feedback">Please enter a password.</div>
+    </div>
+
+    <div class="col-md-12">
+      <label for="inputPassword2" class="form-label">Confirm Password</label>
+      <input
+        type="password"
+        class="form-control"
+        name="password2"
+        required
+      />
+      <div class="valid-feedback">Looks good!</div>
+      <div class="invalid-feedback">Please confirm your password.</div>
+    </div>
+
+    <div class="col-12">
+      <button type="submit" class="btn btn-success">Register</button>
+    </div>
+  </form>
+</div>
+
+
+  

@@ -1,0 +1,24 @@
+<%layout("/layouts/boilerplate")%>
+<body>
+  <div class="log-in d-flex justify-content-center align-items-center mt-5">
+    <form class="row g-3 col-4 needs-validation" method="post" action="/login" novalidate >
+      <div class="col-md-12">
+        <label for="inputEmail4" class="form-label">Email</label>
+        <input type="email" class="form-control" id="inputEmail4" name="email" required />
+        <div class="valid-feedback">Looks good!</div>
+      <div class="invalid-feedback">Please enter a valid email address.</div>
+      </div>
+      <div class="col-md-12">
+        <label for="inputPassword4" class="form-label">Password</label>
+        <input type="password" class="form-control" id="inputPassword4" name="password" required />
+        <div class="valid-feedback">Looks good!</div>
+      <div class="invalid-feedback">Please enter a password.</div>
+      </div>
+      <div class="col-12">
+        <button type="submit" class="btn btn-success">Login</button>
+    </form>
+    <p class="lead mt-4">
+      No Account? <a href="register" class="reg-anc">Register</a>
+    </p>
+  </div>
+</body>

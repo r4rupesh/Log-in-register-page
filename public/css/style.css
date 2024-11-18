@@ -1,0 +1,9 @@
+body {
+  background-image: url('https://images.pexels.com/photos/6985003/pexels-photo-6985003.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-size: cover;
+}
+.home div .blank{
+
+ height:40vh;
+
+}
